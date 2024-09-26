@@ -1,0 +1,21 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.cell:nth-child(odd) {
+    background-color: #f0f0f0;
+}
