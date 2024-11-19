@@ -3,6 +3,8 @@ import random
 import numpy as np
 from queue import Queue
 import heapq
+import webbrowser
+import threading
 import os
 
 app = Flask(__name__)
@@ -12,6 +14,9 @@ start = (0, 0)
 end = (9, 9)
 size = 10  # Default size if not specified
 initial_energy = 50
+
+def open_browser():
+    webbrowser.open("http://127.0.0.1:5000")
 
 # Route to serve the frontend
 @app.route('/')
@@ -142,5 +147,8 @@ def heuristic(cell, goal):
     return abs(cell[0] - goal[0]) + abs(cell[1] - goal[1])
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))  # Obtém a porta especificada pelo Render ou usa 5000 como padrão.
+    # Start the browser in a separate thread to avoid blocking the app
+    threading.Thread(target=open_browser).start()
+    
+    port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port, debug=True)
