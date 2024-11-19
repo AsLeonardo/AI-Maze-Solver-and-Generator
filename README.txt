@@ -1,7 +1,7 @@
 Código em Host, Web Service sob domínio do "Render";
   https://maze-solver-and-generator.onrender.com/
 
-Necessário a instalação e utilização da linguagem, Python para utilização;
+Necessário a instalação e utilização da linguagem, Python para utilização de forma local;
   Recomendo a adição do Python ao caminho "PATH" durante instalação;
     https://www.python.org/downloads/
 
