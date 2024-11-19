@@ -1,6 +1,15 @@
 Código em Host, Web Service sob domínio do "Render";
   https://maze-solver-and-generator.onrender.com/
 
+Necessário Python, Flask e Numpy para executar o programa localmente; segue explicação abaixo.
+
+Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;
+  Baixe o código fonte do código;
+    Abra "AI-Maze-Solver-and-Generator-main" onde pode-se ver app.py; README.txt; requirements.txt; etc...
+      Abra o terminal (CMD, Command Prompt) neste local (ou execute "cd "local do arquivo"")
+        Insira o seguinte comando;
+          "python app.py"
+
 Necessário a instalação e utilização da linguagem, Python para utilização de forma local;
   Recomendo a adição do Python ao caminho "PATH" durante instalação;
     https://www.python.org/downloads/
