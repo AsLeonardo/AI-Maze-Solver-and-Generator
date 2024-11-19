@@ -3,6 +3,7 @@ import random
 import numpy as np
 from queue import Queue
 import heapq
+import os
 
 app = Flask(__name__)
 
@@ -141,4 +142,5 @@ def heuristic(cell, goal):
     return abs(cell[0] - goal[0]) + abs(cell[1] - goal[1])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Obtém a porta especificada pelo Render ou usa 5000 como padrão.
+    app.run(host='0.0.0.0', port=port, debug=True)
