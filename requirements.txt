@@ -1,1 +1,2 @@
-pip freeze > requirements.txt
+Flask==2.2.5
+numpy==1.23.5
