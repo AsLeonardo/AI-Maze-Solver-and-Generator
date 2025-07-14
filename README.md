@@ -3,9 +3,9 @@
 
 ### Necessário Python, Flask e Numpy para executar o programa localmente; segue explicação abaixo.  
 
-Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;
+Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;  
  ㅤㅤㅤBaixe o código fonte do código;  
- ㅤㅤㅤ  Extraia, então abra "AI-Maze-Solver-and-Generator-main" onde pode-se ver app.py; README.txt; requirements.txt...  
+ ㅤExtraia, então abra "AI-Maze-Solver-and-Generator-main" onde pode-se ver app.py; README.txt; requirements.txt...  
  ㅤㅤㅤ    Abra o terminal (CMD, Command Prompt) neste local (ou execute "cd "local do arquivo"")  
  ㅤㅤㅤ      Insira o seguinte comando;  
  ㅤㅤㅤ        "python app.py"  
