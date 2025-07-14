@@ -1,7 +1,6 @@
 ## Código em Host, Web Service sob domínio do "Render"; 
   https://maze-solver-and-generator.onrender.com/  
 ㅤ  
-ㅤ  
 ### Necessário Python, Flask e Numpy para executar o programa localmente; segue explicação abaixo.  
 Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;  
 ㅤBaixe o código fonte do código;  
@@ -10,18 +9,15 @@ Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;
 ㅤㅤㅤㅤInsira o seguinte comando;  
 ㅤㅤㅤㅤㅤ"python app.py"  
 ㅤ  
-ㅤ  
 ### Necessário a instalação e utilização da linguagem, Python para utilização de forma local;  
 Recomendo a adição do Python ao caminho "PATH" durante instalação;  
 ㅤhttps://www.python.org/downloads/  
 ㅤㅤ"Add python.exe to PATH"  
 ㅤ  
-ㅤ  
 ### Necessário a instalação e utilização da biblioteca Flask e Numpy para utilização  
 Recomendo sua instalação via o Terminal (CMD, Command Prompt), PÓS a instalação do Python com o seguinte comando;  
 ㅤ"pip install Flask Numpy"  
 ㅤ  
-   
 ### Possíveis melhorias e adições;  
 >Melhoria nos módulos de IA, BFS e A*  
 >Adição de multiplas gerações de "resolvimento" de labirinto  
