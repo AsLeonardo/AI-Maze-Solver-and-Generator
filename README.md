@@ -5,7 +5,7 @@
 
 Pós instalação de ambos Python quanto respectivas bibliotecas necessárias;  
 ㅤBaixe o código fonte do código;  
-ㅤㅤExtraia, então abra "AI-Maze-Solver-and-Generator-main" onde pode-se ver app.py; README.txt; requirements.txt...  
+ㅤㅤExtraia, então abra "AI-Maze-Solver-and-Generator-main" onde está app.py; README.txt; requirements.txt;  
 ㅤㅤㅤAbra o terminal (CMD, Command Prompt) neste local (ou execute "cd "local do arquivo"")  
 ㅤㅤㅤㅤInsira o seguinte comando;  
 ㅤㅤㅤㅤㅤ"python app.py"  
