@@ -7,7 +7,7 @@ Recomendo a adição do Python ao caminho "PATH" durante instalação;
 ㅤㅤ"Add python.exe to PATH"  
 ㅤ  
 ### Necessário a instalação e utilização da biblioteca Flask e Numpy para utilização  
-Recomendo sua instalação via o Terminal (CMD, Command Prompt), PÓS a instalação do Python com o seguinte comando;  
+Recomendo instalação via o Terminal (Command Prompt), PÓS a instalação do Python com o seguinte comando;  
 ㅤ"pip install Flask Numpy"  
 ㅤ  
 ### Necessário Python, Flask e Numpy para executar o programa localmente;  
